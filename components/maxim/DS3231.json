@@ -1,0 +1,74 @@
+{
+    "description": "Extremely Accurate I2C-Integrated RTC/TCXO/Crystal",
+    "datasheetUrl": "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCC",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [],
+        "right": [
+            [
+                {
+                    "label": "SCL",
+                    "ercType": "input"
+                },
+                {
+                    "label": "SDA",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "32KHZ",
+                    "ercType": "output"
+                },
+                {
+                    "label": "~INT~/SQW",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "~RST",
+                    "ercType": "input"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "SO16": {
+            "pads": [
+                "32KHZ",
+                "VCC",
+                "~INT~/SQW",
+                "~RST",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "GND",
+                "VBAT",
+                "SDA",
+                "SCL"
+            ]
+        }
+    }
+}
+

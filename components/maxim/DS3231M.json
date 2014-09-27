@@ -1,0 +1,86 @@
+{
+    "description": "+/-5ppm I2C Real-Time Clock",
+    "datasheetUrl": "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCC",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [],
+        "right": [
+            [
+                {
+                    "label": "SCL",
+                    "ercType": "input"
+                },
+                {
+                    "label": "SDA",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "32KHZ",
+                    "ercType": "output"
+                },
+                {
+                    "label": "~INT~/SQW",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "~RST",
+                    "ercType": "input"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "SO8": {
+            "pads": [
+                "32KHZ",
+                "VCC",
+                "~INT~/SQW",
+                "~RST",
+                "GND",
+                "VBAT",
+                "SDA",
+                "SCL"
+            ]
+        },
+        "SO16": {
+            "pads": [
+                "32KHZ",
+                "VCC",
+                "~INT~/SQW",
+                "~RST",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "GND",
+                "VBAT",
+                "SDA",
+                "SCL"
+            ]
+        }
+    }
+}
+
