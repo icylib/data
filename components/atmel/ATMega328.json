@@ -1,0 +1,219 @@
+{
+    "description": "8-bit Microcontroller with In-system Programmable Flash",
+    "datasheetUrl": "http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCC",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "AVCC",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "AREF",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "AGND",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "~RESET",
+                    "ercType": "input"
+                }
+            ],
+            [
+                {
+                    "label": "XTAL1",
+                    "ercType": "input"
+                },
+                {
+                    "label": "XTAL2",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "PB0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB5",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "PC0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PC1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PC2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PC3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PC4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PC5",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "PD0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PD7",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "ADC6",
+                    "ercType": "input"
+                },
+                {
+                    "label": "ADC7",
+                    "ercType": "input"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP28": {
+            "pads": [
+                "~RESET",
+                "PD0",
+                "PD1",
+                "PD2",
+                "PD3",
+                "PD4",
+                "VCC",
+                "GND",
+                "XTAL1",
+                "XTAL2",
+                "PD5",
+                "PD6",
+                "PD7",
+                "PB0",
+                "PB1",
+                "PB2",
+                "PB3",
+                "PB4",
+                "PB5",
+                "AVCC",
+                "AREF",
+                "AGND",
+                "PC0",
+                "PC1",
+                "PC2",
+                "PC3",
+                "PC4",
+                "PC5"
+            ]
+        },
+        "TQFP32": {
+            "pads": [
+                "PD3",
+                "PD4",
+                "GND",
+                "VCC",
+                "GND",
+                "VCC",
+                "XTAL1",
+                "XTAL2",
+                "PD5",
+                "PD7",
+                "PB0",
+                "PB1",
+                "PB2",
+                "PB3",
+                "PB4",
+                "PB5",
+                "AVCC",
+                "ADC6",
+                "AREF",
+                "AGND",
+                "ADC7",
+                "PC0",
+                "PC1",
+                "PC2",
+                "PC3",
+                "PC4",
+                "PC5",
+                "~RESET",
+                "PD0",
+                "PD1",
+                "PD2"
+            ]
+        }
+    }
+}
