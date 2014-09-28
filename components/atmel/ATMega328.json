@@ -9,6 +9,10 @@
                     "ercType": "powerIn"
                 },
                 {
+                    "label": "VCC2",
+                    "ercType": "powerIn"
+                },
+                {
                     "label": "AVCC",
                     "ercType": "powerIn"
                 },
@@ -22,6 +26,10 @@
             [
                 {
                     "label": "GND",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND2",
                     "ercType": "powerIn"
                 },
                 {
@@ -186,8 +194,8 @@
                 "PD4",
                 "GND",
                 "VCC",
-                "GND",
-                "VCC",
+                "GND2",
+                "VCC2",
                 "XTAL1",
                 "XTAL2",
                 "PD5",
