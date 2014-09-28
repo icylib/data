@@ -13,6 +13,38 @@
         "bottomPower": [
             [
                 {
+                    "label": "NC1",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC2",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC3",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC4",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC5",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC6",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC7",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "NC8",
+                    "ercType": "powerIn"
+                },
+                {
                     "label": "GND",
                     "ercType": "powerIn"
                 }
@@ -55,14 +87,14 @@
                 "VCC",
                 "~INT~/SQW",
                 "~RST",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                "NC1",
+                "NC2",
+                "NC3",
+                "NC4",
+                "NC5",
+                "NC6",
+                "NC7",
+                "NC8",
                 "GND",
                 "VBAT",
                 "SDA",
