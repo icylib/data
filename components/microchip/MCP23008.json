@@ -1,0 +1,142 @@
+{
+    "description": "8-Bit I/O Expander with I2C Interface",
+    "datasheetUrl": "http://www.adafruit.com/datasheets/mcp23017.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VDD",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "VSS",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "~RESET",
+                    "ercType": "input"
+                }
+            ],
+            [
+                {
+                    "label": "SCL",
+                    "ercType": "input"
+                },
+                {
+                    "label": "SDA",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "A0",
+                    "ercType": "input"
+                },
+                {
+                    "label": "A1",
+                    "ercType": "input"
+                },
+                {
+                    "label": "A2",
+                    "ercType": "input"
+                }
+            ],
+            [
+                {
+                    "label": "INT",
+                    "ercType": "output"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "GP0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "GP7",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP-18": {
+            "pads": [
+                "SCL",
+                "SDA",
+                "A2",
+                "A1",
+                "A0",
+                "~RESET",
+                null,
+                "INT",
+                "VSS",
+                "GP0",
+                "GP1",
+                "GP2",
+                "GP3",
+                "GP4",
+                "GP5",
+                "GP6",
+                "GP7",
+                "VDD"
+            ]
+        },
+        "SO-28": {
+            "pads": [
+                "SCL",
+                "SDA",
+                "A2",
+                "A1",
+                "A0",
+                "~RESET",
+                null,
+                "INT",
+                "VSS",
+                "GP0",
+                "GP1",
+                "GP2",
+                "GP3",
+                "GP4",
+                "GP5",
+                "GP6",
+                "GP7",
+                "VDD"
+            ]
+        }
+    }
+}
