@@ -7,6 +7,10 @@
                 {
                     "label": "VCC",
                     "ercType": "powerIn"
+                },
+                {
+                    "label": "VBAT",
+                    "ercType": "powerIn"
                 }
             ]
         ],
@@ -81,7 +85,7 @@
         ]
     },
     "packages": {
-        "SO8": {
+        "SO-8": {
             "pads": [
                 "32KHZ",
                 "VCC",
@@ -93,7 +97,7 @@
                 "SCL"
             ]
         },
-        "SO16": {
+        "SO-16": {
             "pads": [
                 "32KHZ",
                 "VCC",
