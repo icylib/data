@@ -1,0 +1,130 @@
+{
+    "description": "8-Channel 10-Bit A/D Converters with SPI Serial Interface",
+    "datasheetUrl": "http://www.adafruit.com/datasheets/MCP3008.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VDD",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VREF",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "AGND",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "DGND",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "CH0",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH1",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH2",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH3",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH4",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH5",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH6",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CH7",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "CLK",
+                    "ercType": "input"
+                },
+                {
+                    "label": "~CS~/SHDN",
+                    "ercType": "input"
+                }
+            ],
+            [
+                {
+                    "label": "DIN",
+                    "ercType": "input"
+                },
+                {
+                    "label": "DOUT",
+                    "ercType": "output"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP-8": {
+            "pads": [
+                "CH0",
+                "CH1",
+                "CH2",
+                "CH3",
+                "CH4",
+                "CH5",
+                "CH6",
+                "CH7",
+                "DGND",
+                "~CS~/SHDN",
+                "DIN",
+                "DOUT",
+                "CLK",
+                "AGND",
+                "VREF",
+                "VDD"
+            ]
+        },
+        "SO-8": {
+            "pads": [
+                "CH0",
+                "CH1",
+                "CH2",
+                "CH3",
+                "CH4",
+                "CH5",
+                "CH6",
+                "CH7",
+                "DGND",
+                "~CS~/SHDN",
+                "DIN",
+                "DOUT",
+                "CLK",
+                "AGND",
+                "VREF",
+                "VDD"
+            ]
+        }
+    }
+}
