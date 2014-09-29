@@ -1,0 +1,162 @@
+{
+    "description": "RAM Mapping 16*8 LED Controller Driver with Keyscan",
+    "datasheetUrl": "http://www.holtek.com/pdf/consumer/ht16K33v110.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VDD",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "VSS",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "SCL",
+                    "ercType": "input"
+                },
+                {
+                    "label": "SDA",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "COM0",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM1",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM2",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM3",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM4",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM5",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM6",
+                    "ercType": "output"
+                },
+                {
+                    "label": "COM7",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "ROW0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW7",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW8",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW9",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW10",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW11",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW12",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW13",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW14",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "ROW15",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "SOP-20-7.62-1.27-0.55": {
+            "pads": [
+                "VSS",
+                "COM0",
+                "COM1",
+                "COM2",
+                "COM3",
+                "COM4",
+                "COM5",
+                "COM6",
+                "COM7",
+                "ROW7",
+                "ROW6",
+                "ROW5",
+                "ROW4",
+                "ROW3",
+                "ROW2",
+                "ROW1",
+                "ROW0",
+                "SCL",
+                "SDA",
+                "VDD"
+            ]
+        }
+    }
+}
