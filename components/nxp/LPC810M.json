@@ -1,0 +1,68 @@
+{
+    "description": "32-bit ARM Cortex-M0+ microcontroller with 4kB flash and 1kB SRAM",
+    "datasheetUrl": "http://www.nxp.com/documents/data_sheet/LPC81XM.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VDD",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "VSS",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "~RESET",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "PIO0_0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PIO0_1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PIO0_2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PIO0_3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PIO0_4",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP-8": {
+            "pads": [
+                "~RESET",
+                "PIO0_4",
+                "PIO0_3",
+                "PIO0_2",
+                "PIO0_1",
+                "VDD",
+                "VSS",
+                "PIO0_0"
+            ]
+        }
+    }
+}
