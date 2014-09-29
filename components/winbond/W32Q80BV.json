@@ -1,0 +1,78 @@
+{
+    "description": "Flash Memmory with Dual and Quad SPI",
+    "datasheetUrl": "http://www.winbond.com/NR/rdonlyres/4D2BF674-7427-4FC8-AEF0-1A534DF74F16/0/W25Q80BV.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCC",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "~CS",
+                    "ercType": "input"
+                },
+                {
+                    "label": "CLK",
+                    "ercType": "input"
+                },
+                {
+                    "label": "DI",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "DO",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "~WP",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "~HOLD",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP-8": {
+            "pads": [
+                "~CS",
+                "DO",
+                "~WP",
+                "GND",
+                "DI",
+                "CLK",
+                "~HOLD",
+                "VCC"
+            ]
+        },
+        "SO-8-3.81": {
+            "pads": [
+                "~CS",
+                "DO",
+                "~WP",
+                "GND",
+                "DI",
+                "CLK",
+                "~HOLD",
+                "VCC"
+            ]
+        }
+    }
+}
