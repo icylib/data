@@ -1,0 +1,116 @@
+{
+    "description": "8-Channel Darlington Sink Driver",
+    "datasheetUrl": "http://www.adafruit.com/datasheets/ULN2803A.pdf",
+    "pins": {
+        "bottomPower": [
+            [
+                {
+                    "label": "GND",
+                    "ercType": "powerOut"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "I1",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I2",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I3",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I4",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I5",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I6",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I7",
+                    "ercType": "input"
+                },
+                {
+                    "label": "I8",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "O1",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O2",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O3",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O4",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O5",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O6",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O7",
+                    "ercType": "output"
+                },
+                {
+                    "label": "O8",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "COMMON",
+                    "ercType": "output"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP-18": {
+            "pads": [
+                "I1",
+                "I2",
+                "I3",
+                "I4",
+                "I5",
+                "I6",
+                "I7",
+                "I8",
+                "GND",
+                "COMMON",
+                "O8",
+                "O7",
+                "O6",
+                "O5",
+                "O4",
+                "O3",
+                "O2",
+                "O1"
+            ]
+        }
+    }
+}
