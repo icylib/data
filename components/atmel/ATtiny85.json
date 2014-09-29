@@ -1,0 +1,81 @@
+{
+    "description": "8-bit Microcontroller with In-system Programmable Flash",
+    "datasheetUrl": "http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCC",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "~RESET",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "PB0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "PB4",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "DIP-8": {
+            "pads": [
+                "~RESET",
+                "PB3",
+                "PB4",
+                "GND",
+                "PB0",
+                "PB1",
+                "PB2",
+                "VCC"
+            ]
+        },
+        "SO-8": {
+            "pads": [
+                "~RESET",
+                "PB3",
+                "PB4",
+                "GND",
+                "PB0",
+                "PB1",
+                "PB2",
+                "VCC"
+            ]
+        }
+    }
+}
+
