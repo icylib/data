@@ -18,35 +18,35 @@
             [
                 {
                     "label": "NC1",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC2",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC3",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC4",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC5",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC6",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC7",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "NC8",
-                    "ercType": "powerIn"
+                    "ercType": "notConnected"
                 },
                 {
                     "label": "GND",
