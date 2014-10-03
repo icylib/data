@@ -1,0 +1,442 @@
+{
+    "description": "High-performance CPLD",
+    "datasheetUrl": "http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCCINT1",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCCINT2",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCCINT3",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCCIO1",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCCIO2",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCCIO3",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCCIO4",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND1",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND2",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND3",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND4",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND5",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND6",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND7",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND8",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "TCK",
+                    "ercType": "input"
+                },
+                {
+                    "label": "TDI",
+                    "ercType": "input"
+                },
+                {
+                    "label": "TDO",
+                    "ercType": "output"
+                },
+                {
+                    "label": "TMS",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "IO1-1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-7",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-8",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-9",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-10",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-11",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-12",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-13",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-14",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-15",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-16",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-17",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO1-18",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "IO2-1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-7",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-8",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-9",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-10",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-11",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-12",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-13",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-14",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-15",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-16",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-17",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO2-18",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "IO3-1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-7",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-8",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-9",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-10",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-11",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-12",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-13",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-14",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-15",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-16",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-17",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO3-18",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "IO4-1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-7",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-8",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-9",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-10",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-11",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-12",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-13",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-14",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-15",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-16",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-17",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "IO4-18",
+                    "ercType": "bidirectional"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "TQFP-44-10.0": {
+            "pads": [
+                "IO1-14",
+                "IO1-15",
+                "IO1-17",
+                "GND1",
+                "IO3-2",
+                "IO3-5",
+                "IO3-8",
+                "IO3-9",
+                "TDI",
+                "TMS",
+                "TCK",
+                "IO3-11",
+                "IO3-14",
+                "IO3-15",
+                "VCCINT1",
+                "IO3-17",
+                "GND2",
+                "IO3-16",
+                "IO4-2",
+                "IO4-5",
+                "IO4-8",
+                "IO4-11",
+                "IO4-14",
+                "TDO",
+                "GND3",
+                "VCCIO1",
+                "IO4-15",
+                "IO4-17",
+                "IO2-2",
+                "IO2-5",
+                "IO2-6",
+                "IO2-8",
+                "IO2-9",
+                "IO2-11",
+                "VCCINT2",
+                "IO2-1",
+                "IO2-15",
+                "IO2-17",
+                "IO1-2",
+                "IO1-5",
+                "IO1-6",
+                "IO1-8",
+                "IO1-9",
+                "IO1-11"
+            ]
+        }
+    }
+}
