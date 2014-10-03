@@ -1,0 +1,360 @@
+{
+    "description": "32-bit Microprocessor",
+    "datasheetUrl": "http://www.freescale.com/files/32bit/doc/prod_brief/MC68SEC000.pdf",
+    "pins": {
+        "topPower": [
+            [
+                {
+                    "label": "VCC1",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "VCC2",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "bottomPower": [
+            [
+                {
+                    "label": "GND1",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND2",
+                    "ercType": "powerIn"
+                },
+                {
+                    "label": "GND3",
+                    "ercType": "powerIn"
+                }
+            ]
+        ],
+        "left": [
+            [
+                {
+                    "label": "CLK",
+                    "ercType": "input"
+                }
+            ],
+            [
+                {
+                    "label": "FC0",
+                    "ercType": "output"
+                },
+                {
+                    "label": "FC1",
+                    "ercType": "output"
+                },
+                {
+                    "label": "FC2",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "~BERR",
+                    "ercType": "input"
+                },
+                {
+                    "label": "~RESET",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "~HALT",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "MODE",
+                    "ercType": "input"
+                }
+            ],
+            [
+                {
+                    "label": "~BR",
+                    "ercType": "input"
+                },
+                {
+                    "label": "~BG",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "~IPL0",
+                    "ercType": "input"
+                },
+                {
+                    "label": "~IPL1",
+                    "ercType": "input"
+                },
+                {
+                    "label": "~IPL2",
+                    "ercType": "input"
+                },
+                {
+                    "label": "~AVEC",
+                    "ercType": "input"
+                }
+            ]
+        ],
+        "right": [
+            [
+                {
+                    "label": "A0",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A1",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A2",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A3",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A4",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A5",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A6",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A7",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A8",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A9",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A10",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A11",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A12",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A13",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A14",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A15",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A16",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A17",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A18",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A19",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A20",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A21",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A22",
+                    "ercType": "output"
+                },
+                {
+                    "label": "A23",
+                    "ercType": "output"
+                }
+            ],
+            [
+                {
+                    "label": "D0",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D1",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D2",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D3",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D4",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D5",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D6",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D7",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D8",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D9",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D10",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D11",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D12",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D13",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D14",
+                    "ercType": "bidirectional"
+                },
+                {
+                    "label": "D15",
+                    "ercType": "bidirectional"
+                }
+            ],
+            [
+                {
+                    "label": "~AS",
+                    "ercType": "output"
+                },
+                {
+                    "label": "R/~W",
+                    "ercType": "output"
+                },
+                {
+                    "label": "~UDS",
+                    "ercType": "output"
+                },
+                {
+                    "label": "~LDS",
+                    "ercType": "output"
+                },
+                {
+                    "label": "~DTACK",
+                    "ercType": "input"
+                }
+            ]
+        ]
+    },
+    "packages": {
+        "QFP-64-14.0": {
+            "pads": [
+                "R/~W",
+                "~DTACK",
+                "~BG",
+                "~BR",
+                "VCC1",
+                "CLK",
+                "GND1",
+                "MODE",
+                "~HALT",
+                "~RESET",
+                "~AVEC",
+                "~BERR",
+                "~IPL2",
+                "~IPL1",
+                "~IPL0",
+                "FC2",
+                "FC1",
+                "FC0",
+                "A0",
+                "A1",
+                "A2",
+                "A3",
+                "GND2",
+                "A4",
+                "A5",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10",
+                "A11",
+                "A12",
+                "A13",
+                "A14",
+                "A15",
+                "A16",
+                "A17",
+                "A18",
+                "A19",
+                "A20",
+                "VCC2",
+                "A21",
+                "A22",
+                "A23",
+                "D15",
+                "D14",
+                "D13",
+                "D12",
+                "D11",
+                "D10",
+                "D9",
+                "D8",
+                "D7",
+                "D6",
+                "D5",
+                "GND3",
+                "D4",
+                "D3",
+                "D2",
+                "D1",
+                "D0",
+                "~AS",
+                "~UDS",
+                "~LDS"
+            ]
+        }
+    }
+}
